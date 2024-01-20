@@ -99,7 +99,7 @@ plt.xticks(bar_x_axis - 3*bar_width, dataset_short_buf, fontsize=18)
 for leg_line in h_leg.get_lines():
     leg_line.set_linewidth(6)
 plt.xlim([-4*bar_width, bar_width*32])
-plt.subplots_adjust(left=0.17, bottom=0.28, top=0.99, right=0.99, wspace=0.01)
+plt.subplots_adjust(left=0.17, bottom=0.07, top=0.99, right=0.99, wspace=0.01)
 plt.savefig("figure/Throughput-adult.png")
 # plt.show()
 plt.close()
