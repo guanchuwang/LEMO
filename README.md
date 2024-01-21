@@ -35,7 +35,7 @@ python3 throughput_plot.py
 The L2 error compared with the true Shapley values and Throughput will be:
 <div align=center>
 <img width="240" height="200" src="https://anonymous.4open.science/r/LEMO-3604/figure/L2_vs_n_sample_adult.png">
-<img width="150" height="200" src="https://anonymous.4open.science/r/LEMO-3604/figure/Throughput-adult.png">
+<img width="180" height="200" src="https://anonymous.4open.science/r/LEMO-3604/figure/Throughput-adult.png">
 </div>
 
 
