@@ -1,4 +1,4 @@
-## LETA: Learning Transferable Attribution for Generic Vision Explainer
+## LEMO: Learning Shapley Manifold for Faithful Explanation
 
 ### Research Motivation
 
@@ -12,9 +12,8 @@ Building upon this insight, we propose Learning Shapley Manifold (LEMO) to allev
 ### LEMO
 
 LEMO designs a DNN-explainer with double-head outputs towards estimating the mean and standard deviation, respectively;
-and conducts the learning towards minimizing the Kullback-Leibler divergence aligned with the Shapley manifold, for each feature and instance. 
+and to aligns the explanation with the Shapley manifold by minimizing their Kullback-Leibler divergence, for each feature and instance. 
 In this way, it alleviates the harm of heterogeneous noise by adaptively assembling the contribution of each proxy label by its quality (i.e., noise power), where **low noise power of proxy label, high importance to the training**.
-
 
 ### Dependency
 ````angular2html
@@ -35,7 +34,7 @@ python3 throughput_plot.py
 The L2 error compared with the true Shapley values and Throughput will be:
 <div align=center>
 <img width="240" height="200" src="https://anonymous.4open.science/r/LEMO-3604/figure/L2_vs_n_sample_adult.png">
-<img width="180" height="200" src="https://anonymous.4open.science/r/LEMO-3604/figure/Throughput-adult.png">
+<img width="200" height="200" src="https://anonymous.4open.science/r/LEMO-3604/figure/Throughput-adult.png">
 </div>
 
 
